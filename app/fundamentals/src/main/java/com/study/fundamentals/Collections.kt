@@ -11,6 +11,17 @@ fun main() {
     println("Index of element 6 is ${names.indexOf(6)}")
     println(names)
 
+    val cities = mutableListOf<String>()
+    val empty = emptyList<String>()
+    val emptySet = emptySet<String>()
+    val emptyMap = emptyMap<String, Boolean>()
+
+    for(i in 1..10) {
+        cities.add("Hey $i")
+    }
+
+    println(cities)
+
     for (name in names) {
         println(name)
     }
