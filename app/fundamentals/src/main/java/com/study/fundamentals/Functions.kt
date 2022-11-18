@@ -12,7 +12,7 @@ fun main() {
     println(checkAge(age = catAge))
 }
 
-fun calculateCatAge(age: Int): Int = age * 7
+private fun calculateCatAge(age: Int): Int = age * 7
 
 fun checkAge(age: Int): Boolean = age > 60
 
