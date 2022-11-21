@@ -7,5 +7,7 @@ fun main() {
     car.drive()
     car.speed(100, 200)
 
-
+    val truck = Truck(model = "F250")
+    truck.drive()
+    truck.speed(10, 90)
 }
