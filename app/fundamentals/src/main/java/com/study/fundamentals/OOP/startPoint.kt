@@ -10,4 +10,16 @@ fun main() {
     val truck = Truck(model = "F250")
     truck.drive()
     truck.speed(10, 90)
+
+    val button = Button(label = "button")
+    button.onClick("This is the message")
+
+    val character = Character(label = "character")
+    character.onClick("new character created")
+
+    fun callClickMethod(click: ClickEvent, message: String) {
+        click.onClick(message)
+    }
+
+    callClickMethod(character, "cla clasasdf")
 }
